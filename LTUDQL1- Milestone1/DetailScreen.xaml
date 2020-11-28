@@ -1,0 +1,29 @@
+﻿<Window x:Class="LTUDQL1__Milestone1.DetailScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LTUDQL1__Milestone1"
+        mc:Ignorable="d"
+        Title="DetailScreen" Height="400" Width="530.9">
+    <DockPanel LastChildFill="True" >
+        <Canvas>
+
+            <GroupBox Header="Let's cook" Canvas.Top="10" Height="350" Width="505" Canvas.Left="10"/>
+            <ListView Name="productsListView" Width="388" Height="208" Canvas.Left="63" Canvas.Top="42">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Width="388" Canvas.Left="63" Canvas.Top="255" Height="44"/>
+            <Button Click="previousButton_Click" x:Name="previousButton" Width="90" Height="25" Content="Previous" Canvas.Left="120" Canvas.Top="319" RenderTransformOrigin="0.945,0.638">
+
+            </Button>
+            <Button x:Name="nextButton" Click="nextButton_Click" Width="90" Height="25" Content="Next" Canvas.Left="320" Canvas.Top="319" RenderTransformOrigin="1.234,0.512">
+
+            </Button>
+        </Canvas>
+    </DockPanel>
+</Window>

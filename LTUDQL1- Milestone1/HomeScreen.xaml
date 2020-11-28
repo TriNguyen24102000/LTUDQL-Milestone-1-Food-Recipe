@@ -1,0 +1,137 @@
+﻿<Fluent:RibbonWindow x:Class="LTUDQL1__Milestone1.HomeScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LTUDQL1__Milestone1"
+        xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"   
+        mc:Ignorable="d"
+        Title="HomeScreen" Height="450" Width="800" WindowStartupLocation ="CenterScreen">
+    <DockPanel LastChildFill="True">
+        <Fluent:Ribbon DockPanel.Dock="Top">
+            <Fluent:Ribbon.Menu>
+               
+                <Fluent:Backstage Header="FoodShop" Background="#ec5858" >
+                    <Fluent:BackstageTabControl >
+                        <Fluent:BackstageTabItem Header="Info" Background="#ec5858">
+                            <Label Content="My Food Recipes App"/>
+                        </Fluent:BackstageTabItem>
+                        <Fluent:BackstageTabItem Header="Sign out" Background="#ec5858" 
+                            MouseLeftButtonDown="BackstageTabItem_MouseLeftButtonDown"/>
+                    </Fluent:BackstageTabControl>
+                </Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+            <Fluent:RibbonTabItem Header="All Recipes">
+                <Fluent:RibbonGroupBox>
+                    <Fluent:Button Header="Add to favorite" Name="AddtoFavo">
+                        <Fluent:Button.LargeIcon >
+                            <Image Source="/Images/Add2.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+                </Fluent:RibbonGroupBox>
+                <Fluent:RibbonGroupBox Header="Settings">
+                    <Fluent:Button Header="Add recipe" Click="AddButton_Click" >
+                        <Fluent:Button.LargeIcon >
+                            <Image Source="/Images/plus.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+
+                    <Fluent:Button Header="Edit recipe" VerticalAlignment="Top" >
+                        <Fluent:Button.LargeIcon >
+                            <Image Source="/Images/edition.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+                    <Fluent:Button Header="Delete recipe" >
+                        <Fluent:Button.LargeIcon >
+                            <Image Source="/Images/delete2.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="Favorite recipes">
+                <Fluent:RibbonGroupBox Header="Settings">
+                    <Fluent:Button Header="Add recipe " >
+                        <Fluent:Button.LargeIcon >
+                            <Image Source="/Images/plus.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+
+                    <Fluent:Button Header="Edit recipe" VerticalAlignment="Top" >
+                        <Fluent:Button.LargeIcon >
+                            <Image Source="/Images/edition.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+                    <Fluent:Button Header="Delete recipe" >
+                        <Fluent:Button.LargeIcon >
+                            <Image Source="/Images/delete2.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.LargeIcon>
+                    </Fluent:Button>
+
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+        <DockPanel>
+            <StatusBar DockPanel.Dock="Bottom" Height="30">
+                <DockPanel>
+                    <TextBlock x:Name="statusTextBlock" Text="All is done" Width="400"></TextBlock>
+                    <ProgressBar DockPanel.Dock="Right" x:Name="loadingProgressBar" Width="100" Height="10"></ProgressBar>
+                </DockPanel>
+            </StatusBar>
+            <Canvas>
+                <Button x:Name="previousButton" 
+                        Width="90" Height="25" 
+                        Content="Previous"
+                        FontFamily="Helvetica"
+                        FontWeight="DemiBold"
+                        FontSize="12"
+                        Canvas.Left="186" 
+                        Canvas.Top="241"/>
+                <Button x:Name="nextButton" 
+                        Width="90" 
+                        Height="25" 
+                        Content="Next" 
+                        FontFamily="Helvetica"
+                        FontWeight="DemiBold"
+                        FontSize="12"
+                        Canvas.Left="543" Canvas.Top="241"/>
+                <ComboBox Name="pagingComboBox" 
+                          SelectionChanged="pagingComboBox_SelectionChanged" 
+                          Width="100" Height="25" 
+                          Canvas.Left="365" Canvas.Top="241">
+
+                </ComboBox>
+            </Canvas>
+            <DockPanel >
+                <Grid  Height="40" DockPanel.Dock="Top"  >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox Grid.Column="0" SelectionChanged="ComboBox_SelectionChanged" Name="categoriesComboBox" Height="30" Margin="8, 0, 8, 0">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock Padding="3, 4, 0 , 0" Foreground="#ec5858" FontWeight="Bold" Text="{Binding Name}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                    <Grid Grid.Column="1" Margin="5">
+                        <TextBlock Name="searchHintTextBlock" FontStyle="Italic" Foreground="Gray" Text="Enter keyword" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="36, 0, 0, 0"/>
+                        <TextBox Background="Transparent" GotFocus="searchTextBox_GotFocus" LostFocus="searchTextBox_LostFocus" Padding="30, 5, 0, 0" x:Name="searchTextBox" Height="30" />
+                        <Image  Margin="10, 0, 0, 0" HorizontalAlignment="Left" RenderOptions.BitmapScalingMode="HighQuality" Source="/Images/search.png" Width="16" Height="16" />
+                    </Grid>
+                </Grid>
+                <ListView Name="productsListView" Margin="0,0,0,45.8">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </DockPanel>
+        </DockPanel>
+    </DockPanel>
+</Fluent:RibbonWindow>

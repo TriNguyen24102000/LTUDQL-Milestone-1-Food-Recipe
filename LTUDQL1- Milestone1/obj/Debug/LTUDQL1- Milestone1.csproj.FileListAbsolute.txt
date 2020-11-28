@@ -1,0 +1,34 @@
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1.csprojAssemblyReference.cache
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\MainWindow.g.cs
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\App.g.cs
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1_MarkupCompile.cache
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1_MarkupCompile.lref
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\LTUDQL1- Milestone1.exe.config
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\LTUDQL1- Milestone1.exe
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\LTUDQL1- Milestone1.pdb
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\MainWindow.baml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1.g.resources
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1__Milestone1.Properties.Resources.resources
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1.csproj.GenerateResource.cache
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1.csproj.CoreCompileInputs.cache
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1.exe
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1.pdb
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\HomeScreen.g.cs
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\SplashScreen.g.cs
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\HomeScreen.baml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\SplashScreen.baml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\ControlzEx.dll
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\Fluent.dll
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\ControlzEx.pdb
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\ControlzEx.xml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\Fluent.pdb
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\Fluent.xml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\LTUDQL1- Milestone1.csproj.CopyComplete
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\App.baml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\Add.g.cs
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\DetailScreen.g.cs
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\Add.baml
+C:\Users\phamd\Desktop\LTUDQL1- Milestone1\LTUDQL1- Milestone1\obj\Debug\DetailScreen.baml
